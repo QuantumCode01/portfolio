@@ -113,7 +113,12 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
-
+@media only screen and (max-width:768px){
+	.skill-mf .title-s{
+		text-align:center;
+	}
+	.about-me{text-align:center;}
+}
 
 </style>
 
@@ -214,7 +219,7 @@
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
-								<div class="row justify-content-center">
+								<div class="row justify-content-center" style="display:flex;gap:60px;">
 									<div class="col-sm-3 col-md-5 col-5">
 									  <div class="about-img d-flex justify-content-center">
 										<img src="images/my-image.png" class="img-fluid rounded-circle b-shadow-a border border-warning" alt="">
@@ -272,7 +277,7 @@
 							<div class="col-md-12 heading-section ftco-animate">
 								
 								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
+								<h2 class="mb-4 about-me">About Me</h2>
 								
 								<p>Experienced UI Developer skilled in designing responsive, user-friendly web interfaces using HTML5, CSS3, JavaScript, jQuery, Bootstrap, and
 									WordPress Elementor. Proficient in React.js, Strapi, Git, and enhancing performance with AJAX, JSON, and CSS animations. .</p>
@@ -292,13 +297,13 @@
 						</div>
 
 
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="counter-wrap ftco-animate d-flex mt-md-3 justify-content-center">
 							<div class="text">
 								<!-- <p class="mb-4">
 									<span class="number" data-number="30">0</span> <span>+</span>
 									<span>&nbsp; Projects completed</span>
 								</p> -->
-								<p><a href="http://www.linkedin.com/in/saurabh-singh-54a37a251" target="_BLANK" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+								<p><a href="http://www.linkedin.com/in/saurabh-singh-54a37a251" target="_BLANK" class="btn btn-primary py-3 px-3 ">LinkedIn</a></p>
 							</div>
 						</div>
 					</div>
